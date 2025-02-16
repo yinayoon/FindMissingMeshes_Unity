@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Missing Meshes Tool Download</title>
+  <style>
+    /* 기본 스타일 */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .download-section {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .download-button {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 10px;
+      transition: background-color 0.3s ease;
+    }
+    .download-button:hover {
+      background-color: #45a049;
+    }
+    footer {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Find Missing Meshes Tool</h1>
+    <p>유니티용 Missing Meshes 찾기 도구</p>
+  </header>
+  <main>
+    <section>
+      <h2>설명서 다운로드</h2>
+      <p>아래 버튼을 클릭하여 "Find Missing Meshes" 도구의 설명서를 다운로드 받을 수 있습니다.</p>
+      <div class="download-section">
+        <!-- 파일 경로는 필요에 따라 변경 -->
+        <a class="download-button" id="download-doc" href="docs/FindMissingMeshes_Documentation.pdf" download>설명서 다운로드</a>
+      </div>
+    </section>
+    <section>
+      <h2>코드 다운로드</h2>
+      <p>아래 버튼을 클릭하여 "Find Missing Meshes" 도구의 코드를 다운로드 받을 수 있습니다.</p>
+      <div class="download-section">
+        <!-- 파일 경로는 필요에 따라 변경 -->
+        <a class="download-button" id="download-code" href="code/FindMissingMeshes_Code.zip" download>코드 다운로드</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+  </footer>
+  <script>
+    // JavaScript를 이용하여 다운로드 클릭 이벤트 추적 (필요 시 활용)
+    document.getElementById('download-doc').addEventListener('click', function() {
+      console.log("설명서 다운로드 버튼이 클릭되었습니다.");
+    });
+    document.getElementById('download-code').addEventListener('click', function() {
+      console.log("코드 다운로드 버튼이 클릭되었습니다.");
+    });
+  </script>
+</body>
+</html>
